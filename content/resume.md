@@ -4,7 +4,7 @@ date: "2013-11-11T13:34:51"
 url: "/resume/"
 ---
 
-To download this file as PDF, [click here](/jamesgaryjardine.com/documents/jardinejamesRes.pdf "James Jardine Resume")
+To download this file as PDF, [click here](/documents/jardinejamesRes.pdf "James Jardine Resume")
 
 # James Jardine
 
