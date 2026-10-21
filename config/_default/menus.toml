@@ -1,0 +1,44 @@
+[[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+[[main]]
+  name = "Blog"
+  identifier = "blog"
+  weight = 200
+  url = "/blog/"
+
+[[main]]
+  name = "Portfolio"
+  identifier = "portfolio"
+  weight = 300
+  url = "/portfolio/"
+
+[[main]]
+  name = "Articles"
+  identifier = "articles"
+  parent = "portfolio"
+  weight = 310
+  url = "/portfolio/articles/"
+
+[[main]]
+  name = "Presentations and Videos"
+  identifier = "presentations"
+  parent = "portfolio"
+  weight = 320
+  url = "/portfolio/presentations-and-videos/"
+
+[[main]]
+  name = "Projects"
+  identifier = "projects"
+  parent = "portfolio"
+  weight = 330
+  url = "/portfolio/projects/"
+
+[[main]]
+  name = "Resume"
+  identifier = "resume"
+  weight = 400
+  url = "/resume/"

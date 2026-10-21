@@ -1,0 +1,21 @@
+---
+title: "Ashley Madison site breached"
+date: "2015-07-20T22:28:32"
+slug: "ashley-madison-site-breached"
+categories: ["Uncategorized"]
+tags: ["adult friendfinder", "ashley madison", "Breach", "breached", "hack", "hacked", "Hacking", "member", "research", "Security", "security awareness"]
+---
+
+If you are keeping up with the news you have probably already heard about the breach of the adult site known as Ashley Madison.   Here is a link to one of the articles about it: <http://money.cnn.com/2015/07/20/technology/ashley-madison-hack/index.html>. Like the breach at Adult Friend Finder (<http://money.cnn.com/2015/05/22/technology/adult-friendfinder-hacked/>) a few months ago, this type of incident is a little different than the usual breach.   This breach is less about identity information (although at the root has a lot to do with it), financial information, or even health information.   The focus of this type of site/service is on secrecy and discreetness.   It is about sharing sensitive information about an individual’s private life.
+
+As we become more content with the Internet and the freedoms it provides us, we often start to overlook the reality that it creates.  Some people think what they do on a computer isn’t real, rather, more of a game.   That the effects are not real.   We have this notion that everything we do is anonymous, leading us to take more risks than we might have otherwise.  Take a moment and think about some things you might have said or done online that you most likely wouldn’t have done in person.  Think about how quickly that can snowball out of control.  
+
+The breach at Ashley Madison should serve as a reminder that what we do may not be as anonymous as we thought.   That the effects of our actions may turn out to have some real life consequences.   Is it possible someone was just curious and meant no harm signing up on the site?  Maybe they got in a fight with their spouse, had a bad day at work, were just bored.   Of course those may not be acceptable excuses for joining a site that promotes adultery, but it could be something that small that led to the initial curiosity.  There are also people just looking for another relationship.  Anyone who has their name released as being a member has the same potential consequences.  You may be publicly criticized, sorry.. that is what society does now.  Your job or career could be effected. Your relationship with your significant other and/or children can be effected.  The list goes on.
+
+We are all still learning the effects our online actions have on us over time. Our parents didn’t have nearly as much technology so many of us are learning on our own. We need to understand that, just like business, we assume a level of risk when acting online.  There is no 100% secure systems.  It doesn’t matter if we are talking online banking, adult sites, social media, or password managers.  There is always some level of risk.  We must learn to calculate that risk and determine if it is worth it.  We are often quick to blindly accept the risk for the quick reward.  Share your contacts for some coins in a game.  Post atrocious comments for a chance to feel like you stood for something.  
+
+Is there a risk to joining an adult site like this?  Of course there is.  For many, that risk is acceptable for their own personal reasons.  Some members may had not really considered the risks, while others may have given great thought to joining.  Either way, the risk is there.   The big question in this situation is regarding what that risk now means to the individuals involved.
+
+The media hypes this up to be devastating.  However if we look back at Adult Friend Finder, after a few days, you stopped hearing much about it.  This doesn’t mean that there were no consequences suffered by users effected by that breach, but it did quiet down a lot.  Maybe it was because of the personal nature that people didn’t want to put it out for everyone to see.  That makes it difficult to judge the real effect that this breach will have.
+
+It will be interesting to see what types of effects this has going forward.  In the meantime, we should ensure that we are thinking about the risks. Be safe everyone.

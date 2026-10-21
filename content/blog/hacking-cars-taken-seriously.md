@@ -1,0 +1,23 @@
+---
+title: "Hacking Cars: Taken Seriously?"
+date: "2015-07-21T19:06:32"
+slug: "hacking-cars-taken-seriously"
+categories: ["Uncategorized"]
+tags: ["car hacking", "dealer", "hack", "Hacking", "jeep", "research", "researcher", "Security", "security awareness", "security research", "Testing"]
+---
+
+Turn on an ad for new vehicles and you are bound to see how connected they are to our lives. Gone are the days when your vehicle is just a stand alone product. Now we are seeing cars that have internet connectivity. We are moving past the simple satellite radio or GPS systems and becoming connected to a lot of data. Security folks have been talking about vehicle security for a while now and a few researchers have been focusing on showing how serious the security of these vehicles is.
+
+Today, a story was released on Wired “Hackers Remotely Kill a Jeep on the Highway – With Me In It” (<http://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/>) describing how a Jeep was remotely controlled by a laptop 10 miles away. For the full details, check out the link I just provided. Once the story hit the airwaves, it received lots of attention, both good and bad.
+
+Lets start with the positive side of things that were shown. It is possible to actually show the capability to breach a vehicles systems (remotely) and then control many of the functions. These functions include the radio, wipers, temperature controls, transmission and brakes to name a few. It is a concern that this can be done without authorization. I certainly do not want my vehicle to be taken over while I am driving it making it unsafe for myself or my family. **The highlight: Security is important for vehicles with them being more reliant on software and internet connectivity.**
+
+Rumor is that there is a patch for the vehicle to fix this issue. The issue we now have to address is how do we efficiently and effectively get these patches to the vehicles. At this point, bringing the vehicle in to a dealership to have the software updated is the only real option.
+
+The negative reception is where it gets interesting. They decided to do this experiment on a highway with other vehicles around traveling at the speed limit (70 MPH). At one point the driver is explaining how he can’t see because the windshield wipers are going with the fluid spraying. At another point, they cut out the transmission and the vehicle slows way down on the highway where there was no breakdown lane. That is a brief and probably insufficient summary, however the point is that a lot of people are upset.
+
+This type of testing in a public place like this puts the other drivers on that highway at risk. This is not much different than the plane hacking bonanza that happened a few months ago (<http://www.cnn.com/2015/05/17/us/fbi-hacker-flight-computer-systems/>) causing a huge backlash. It is one thing to look for security issues that may help make things safer, but it is critical that the testing of these theories are done in a controlled environment, not putting people at risk. They don’t test vehicle crash ratings on the highway, they do it in a secluded area where safety is a priority.
+
+If you are going to research security issues, no matter what they are, it is critical to think about this type of stuff before you just jump on in. While I understand that this type of stunt hacking is great for advertising an upcoming talk at your local hacker conference, it is not acceptable when directly putting other people at risk. You want to hack a plane? Get an airline to get you into a hangar in a controlled environment. The other option, by a plane to test out yourself. But don’t do it on a plane full of passengers at 30,000 feet. In this case, the researchers went out and acquired the vehicle and researched in their own facilities. The issue arose when they did their testing on a highway and not on a closed course. Security research is walking a fine line and it will require the best foot forward to push it in a positive direction. If all people see is the stunt hacking they will lose sight of the real issue at hand and just see these stunts as reckless. It will have the opposite effect of what the end goal is: to increase security awareness and security of the devices or products.
+
+If you are in the market for a new vehicle, don’t be afraid to ask questions about the security of the vehicles communication systems. The more we dig as consumers the more aware the manufacturers will be. At some point, promoting security as a feature will be critical to beating out the competition ultimately forcing everyone to get on board. Be smart and stay safe.

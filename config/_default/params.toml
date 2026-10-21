@@ -1,0 +1,26 @@
+title = "James Jardine"
+author = "James Jardine"
+description = "Security Consultant and Instructor"
+profilePicture = "wp-content/uploads/2014/08/IMG_0248.jpg"
+keywords = "security, application security, penetration testing, training"
+# Posts live in the "blog" section; empty list keeps the home page as the static About Me page
+mainSections = [""]
+postSectionName = "blog"
+singleDateFormat = "January 2, 2006"
+listDateFormat = "Jan 2"
+
+# Sidebar "Follow Me" links (same as the WordPress site)
+[[socialIcons]]
+icon = "fa-solid fa-rss"
+title = "RSS"
+url = "/index.xml"
+
+[[socialIcons]]
+icon = "fa-brands fa-twitter"
+title = "Twitter"
+url = "https://www.twitter.com/JardineSoftware"
+
+[[socialIcons]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/jjardine"

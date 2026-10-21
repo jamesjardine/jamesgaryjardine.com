@@ -1,0 +1,27 @@
+baseURL = "https://www.jamesgaryjardine.com/"
+locale = "en"
+DefaultContentLanguage = "en"
+title = "James Jardine"
+theme = "anatole"
+
+enableRobotsTXT = true
+summarylength = 10
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Keep post URLs identical to WordPress (/<slug>/)
+[permalinks.page]
+  blog = "/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Do not auto-link bare URLs/emails (keeps text exactly as written)
+[markup.goldmark.extensions]
+  linkify = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
