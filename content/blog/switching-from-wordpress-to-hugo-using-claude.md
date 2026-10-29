@@ -1,7 +1,7 @@
 ---
 title: Switching from WordPress to Hugo Using Claude
-date: 2026-10-22T06:38:03
-draft: true
+date: 2026-10-28T06:38:03
+draft: false
 slug: switching-from-wordpress-to-hugo-using-claude
 categories:
   - Uncategorized
@@ -11,7 +11,7 @@ tags:
   - wordpress
   - claude
 ---
-I was recently thinking about switching my personal site from Wordpress to a static site, like Hugo. In the migration, I would move from my old host to using GitHub pages. The goal was to reduce the overall footprint for a low traffic site and remove all the overhead that Wordpress brought. Don't get me wrong, Wordpress has been good, but I like the idea of just static pages. 
+I was recently thinking about switching my personal site from Wordpress to a static site, using Hugo. In the migration, I would move from my old host to using GitHub pages. The goal was to reduce the overall footprint for a low traffic site and remove all the overhead that Wordpress brought. Don't get me wrong, Wordpress has been good, but I like the idea of just static pages. 
 
 I decided to go with Hugo as my static generator and this would be my first real project trying out using Claude to do the majority of the legwork. 
 
@@ -38,13 +38,18 @@ Claude started in a planning mode, where it can read and research but not change
 - The page list, from the WordPress sitemap: 7 pages and 23 blog posts.
 - The sidebar items (search, recent posts, archives and the Follow Me links).
 
-Two details from that research mattered later. The post URLs lived at the root of the site (`/some-post-title/`, not `/blog/some-post-title/`), and the Portfolio sub-pages lived under `/portfolio/`. If I wanted old links to keep working, the Hugo site needed to produce exactly the same URLs.
+Two details from that research mattered later. The post URLs lived at the root of the site (`/some-post-title/`, not `/blog/some-post-title/`), and the Portfolio sub-pages lived under `/portfolio/`. If I wanted old links to keep working, the Hugo site needed to produce exactly the same URLs. It was important to not break the old links that have been out there for years.
 
-It then asked me a few questions that I could not leave to a default: should all the posts be migrated (yes), what would the site address be (my custom domain), and how should the theme be installed (as a git submodule). Having those answered up front kept the rest of the work moving.
+It then asked me a few questions that I could not leave to a default: 
+* should all the posts be migrated (yes)
+* what would the site address be (my custom domain)
+* how should the theme be installed (as a git submodule) 
+
+Having those answered up front kept the rest of the work moving.
 
 ## Step 2: Get the Content Out of WordPress
 
-I expected to export the content from the WordPress admin screen. Claude took a different route: the WordPress REST API. Every WordPress site exposes its pages and posts as JSON at `/wp-json/wp/v2/pages` and `/wp-json/wp/v2/posts`, so one request each pulled down everything, including titles, dates, slugs, categories, tags and the rendered HTML.
+I expected to export the content from the WordPress admin screen as I had seen that in other posts for this type of migration. Claude took a different route: the WordPress REST API. Every WordPress site exposes its pages and posts as JSON at `/wp-json/wp/v2/pages` and `/wp-json/wp/v2/posts`, so one request each pulled down everything, including titles, dates, slugs, categories, tags and the rendered HTML.
 
 A small script turned each item into a Hugo content file with front matter (title, date, slug, categories and tags). It also downloaded the images and the resume PDF into Hugo's `static/` folder, using the same paths as WordPress (`/wp-content/uploads/...`), so nothing depended on the old host any more.
 
@@ -134,7 +139,7 @@ This was my first real project where I let Claude do most of the work, so here a
 **What worked well**
 
 - **Planning first.** Having it research the site and propose a plan before changing anything meant the main decisions were made early, and the work after that had few surprises.
-- **Verification.** The checks (matching every URL, comparing text before and after conversion, rebuilding after each change) caught real problems before I did. It would have been difficult and time consuming to try to compare everything word for word.
+- **Verification.** The checks (matching every URL, comparing text before and after conversion, rebuilding after each change) caught real problems before I did. It would have been difficult and time consuming to try to compare everything word for word. However, there were still a few things that were missed and caught later as described previously.
 - **Finding the real cause.** The Dart Sass problem looked like a Hugo problem, and it took reproducing it in a different build mode to see what was actually missing.
 
 **What needed me**
@@ -150,6 +155,4 @@ If you are considering the same move, my short list would be:
 
 1. Pull the content through the WordPress REST API instead of fighting with exports.
 2. Keep the URLs identical, and verify them against your sitemap.
-3. Install Dart Sass, both locally and in your workflow, if your theme needs it.
-4. Convert to real Markdown, and compare the text before and after.
-5. Decide on `www` versus the bare domain early, and keep your config, `CNAME` and DNS aligned.
+3. Convert to real Markdown, and compare the text before and after.
