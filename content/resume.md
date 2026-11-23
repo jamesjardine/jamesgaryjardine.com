@@ -9,7 +9,7 @@ To download this file as PDF, [click here](/documents/jardinejamesRes.pdf "James
 # James Jardine
 
 Jacksonville, FL\
-Phone: 904-638-5431  E-Mail: james@jardinesoftware.com\
+E-Mail: james@jardinesoftware.com\
 <http://www.jardinesoftware.com>\
 <https://www.developsec.com>
 
@@ -94,31 +94,32 @@ Phone: 904-638-5431  E-Mail: james@jardinesoftware.com\
 - Analyze, design, develop, test and support of new applications using C#, ASP.Net, VB6 and SQL.
 - Support and upgrade of client/server applications using VB6, SQL 2000 and Life 70 Mainframe.
 
-# Projects
+# Podcasts
 
 ## DevelopSec
 
 DevelopSec is a focused on maturing security in the software development lifecycle (SDLC) and engaging everyone involved in developing applications in learning about security.\
 **Website:** <https://www.developsec.com>\
-**Podcast:** <http://developsec.libsyn.com>
+**Podcast:** <https://podcast.developsec.com/>
 
 ## Down the Security Rabbithole Podcast
 
 Down the Security Rabbithole is a podcast dedicated to enterprise security created by Rafal Los (wh1t3rabbit). The weekly production consists of alternating weeks of weekly news and interviews with professionals in the industry.\
-**Podcast:** <http://podcast.wh1t3rabbit.net>
+**Podcast:** <https://dtsr.buzzsprout.com/>
 
 # Certifications
 
-CSSLP, GSSP – .Net, MCSD, MCAD
-
- 
+- CSSLP (Expired)
+- GSSP – .Net (Expired)
+- MCSD
+- MCAD
 
 # Education
 
 ## A.A. General Studies – University of North Florida                                                                         2003 – 2009
 
-I completed the general studies required by all college students.  I choose electives relating to Information Technology (Intro to C, Intro to OOP, COBOL).
+I completed the general studies required by all college students.  I choose electives relating to Information Technology (Intro to C, Intro to OOP, COBOL, etc.).
 
 ## A.S. Electronic Engineering Technology – ITT Technical Institute                                                    1997 – 1999
 
-I studied electronics with a great amount of hands on lab experience working with circuit boards.  I was a member of the National Technical Vocational honor Society and graduated class Valedictorian.
+I studied electronics with a great amount of hands on lab experience working with AC/DC circuits, digital electronics, microprocessors, soldering and troubleshooting.  I was a member of the National Technical Vocational honor Society and graduated class Valedictorian.
