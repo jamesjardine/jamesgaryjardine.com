@@ -17,10 +17,18 @@ E-Mail: james@jardinesoftware.com\
 
 ## VP of Information Security – UnDisclosed                                                                   8/2022 – Present
 
-- Led the implementation of IAM within the organization including PAM and IGA.
-- Lead the security engineering team.
-- Lead the application security team.
-- Participate in enterprise architecture to provide a security perspective.
+- Spearheaded an enterprise-wide implementation of PAM, including Password Safe, Privilege Remote Access, and Endpoint Privilege Management delivering under budget and ahead of schedule. 
+- Spearheaded the initial implementation of IGA specifically focused on quarterly user access reviews reducing the overall time needed for managers to complete them.
+- Collaborate with engineering teams to re-engineer application security scanning to improve efficiency and visibility of vulnerabilities early in the SDLC. This improved our scanning coverage to 100% of code repositories (1,000+). 
+- Led the improvement of security automation capabilities to improve notifications and decrease time to triage new findings. 
+- Collaborated with development teams to get more visibility and involvement from the security team regarding ongoing development activities.
+- Led a team of 4 engineers focused on application and cloud security, endpoint security and IAM.
+- Successfully filled 2 open positions for security engineers that have proven to be top performers.
+- Actively participated in enterprise architecture and ARB activities.
+- Actively involved in vendor (third party) risk management reviews, reviewing SOC 2 Type II reports and other artifacts to identify potential risks. 
+- Own security policies and procedures and responsible for creation and annual updates.
+- Mature the secure development training program achieving 100% completion rates for all modules assigned.
+
 
 ## Principle Consultant/Owner – Jardine Software Inc.                                                                   1/2004 – Present
 
@@ -32,6 +40,7 @@ E-Mail: james@jardinesoftware.com\
 
 ## Senior Manager / Principal Application Security Engineer – Okta                                                                   2/2020 – 7/2022
 
+- Created the security education program.
 - Manage a small team to create live and on-demand secure development training.
 - Assisted in the hiring process to help grow the team.
 - Perform performance reviews, 1 on 1’w with the team, and other leadership activities to help foster an engaging environment.
@@ -56,7 +65,7 @@ E-Mail: james@jardinesoftware.com\
 ## Instructor – SANS Institute                                                                      7/2011 – 1/2014
 
 - Teach in-person and online courses – DEV544: Secure Coding in .Net.
-- Authored portions of the DEV544: Secure Coding in .Net course.
+- Authored portions of the DEV544: Secure Coding in .Net course and labs.
 
 ## Information Security Engineer IV – Wells Fargo Inc.                                                                 4/2011 – 5/2012
 
@@ -109,10 +118,12 @@ Down the Security Rabbithole is a podcast dedicated to enterprise security creat
 
 # Certifications
 
-- CSSLP (Expired)
-- GSSP – .Net (Expired)
-- MCSD
-- MCAD
+- CSSLP (Certified Secure Software Lifecycle Professional) (2009-2021)
+- GSSP–.Net (GIAC Secure Software Programmer) (2011-2015)
+- MCSD (Microsoft Certified Solutions Developser) (2001)
+- MCAD (Microsoft Certified Application Developser) (2005)
+- MCP (Microsoft Certified Professional) (2001)
+- CET (Certified Electronics Technician) (1999-2003)
 
 # Education
 
